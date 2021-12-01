@@ -15,12 +15,12 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "MTech Blog"
+locale                   : "en-US" #"ko-KR"
+title                    : "MTech Note"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : 
-description              : "An amazing website."
+description              : "MTF Technology Blog"
 url                      : "http://blog.mtf.re.kr/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -104,7 +104,7 @@ author:
   name             : "MTF"
   avatar           : "/assets/images/mtf.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "MTF Research Team"
-  location         : "Seoul"
+  location         : "Seoul, Republic of Korea"
   email            :
   links:
     - label: "Email"
@@ -121,7 +121,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/MiraeTechResearch/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -129,6 +129,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "http://www.mtf.re.kr"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
@@ -227,6 +230,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+#  - jekyll-figure
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -287,3 +291,7 @@ defaults:
       comments: # true
       share: true
       related: true
+
+# Jekyll-figure Setting
+figures:
+  enumerate: true

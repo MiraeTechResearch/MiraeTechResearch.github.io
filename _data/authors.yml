@@ -3,7 +3,7 @@
 Sungyup Nam:
   name             : "Sungyup Nam"
   avatar           : "/assets/images/synam.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Ph.D. Cybersecurity."
+  bio              : "Security Researcher & GANs enthusiast"
   location         : "Seoul"
   email            :
   links:
@@ -15,7 +15,7 @@ Sungyup Nam:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://twitter.com/REDPACK_kr"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -25,3 +25,6 @@ Sungyup Nam:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://kr.linkedin.com/in/sungyup-nam-a1974685"
